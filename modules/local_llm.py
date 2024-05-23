@@ -57,7 +57,7 @@ and the relation between them, like the following: \n
         "edge": "relationship between the two concepts, node_1 and node_2 in one or two sentences"\n
     }, {...}\n"
 ]
-DO NOT RETURN ANY EXPLANATION, ONLY RETURN THE LIST OF JSON.
+DO NOT RETURN ANY EXPLANATION, ONLY RETURN THE LIST OF JSON format.
 """
 
 qa_assistant_prompt = """You are a helpful assistant. You do not respond as 'User' or pretend to be 'User'.
