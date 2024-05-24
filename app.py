@@ -33,7 +33,7 @@ if __name__ == '__main__':
     vector_db = VectorDBManager(db_name='Demo')
     vector_db.upload_vectors(extracted_entities_df)
 
-    search_query = "what was the solution for the hackathon"
+    search_query = "what projects he did in AI/ML"
     search_results = vector_db.search_by_keyword(query=search_query, top_k=5)
 
     for result in search_results['data']['Get']['Demo']:
