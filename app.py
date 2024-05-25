@@ -2,7 +2,7 @@ from modules.data_embedding import TextEmbedder
 from modules.local_llm import KnowledgeGraphLLM
 from vectore_storage.weaviate_handler import VectorDBManager
 
-from helpers.pdf_processor import DocumentChunker
+from helpers.pdf_processor import pdf_processor
 from helpers.graph_builder import ConceptGraph
 
 import torch
